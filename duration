@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "exiftool yukleyin eger yoxdursa 'sudo apt install exiftool'"
+echo "Video fayli qeyd edin bir necesini ve ya birinin adini"
+read name
+exiftool -n -q -p '${Duration;our $sum;$_=ConvertDuration($sum+=$_)
+                    }' $name| tail -n1
+echo "Tehsekkur edirik!!!"
+
+
