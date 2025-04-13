@@ -8,9 +8,9 @@ This Bash script provides an easy way to extract multiple archive formats automa
 
 - `.tar.bz2`, `.tar.gz`, `.tar`, `.tbz2`, `.tgz`
 - `.gz`, `.bz2`, `.Z`
-- `.zip`, `.rar`, `.jar`
+- `.zip`, `.rar`, `.7z`, `.jar`
 
-> ⚠️ Note: `rar` requires `rar` to be installed. `jar` requires `JDK`.
+> ⚠️ Note: `rar` requires `rar` to be installed. `jar` requires `JDK`. `7z` requires `p7zip-full`.
 
 ---
 
